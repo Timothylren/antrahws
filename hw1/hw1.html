@@ -5,8 +5,45 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Signup Page</title>
+    <link rel = 'stylesheet' href="styleSignUp.css">
 </head>
 <body>
+    <div>        
+        <form class = "wrapper"> 
+            <h1 class = 'header'>Sign Up</h1>
+            <div class = flex-container>
+                <input type = "text" placeholder="First Name" class="half-class">
+                <input type = "text" placeholder="Last Name" class="half-class">
+            </div>
+            <div class = flex-container>
+                <input type = "tel" placeholder="Mobile No." id="tel" class = "radius">
+            </div>
+            <div class = flex-container>
+                <input type = "email" placeholder="Email Address" id="email" class = "radius">
+            </div>
+            <div class = flex-container>
+                <input type = "password" placeholder="Password" class="half-class">
+                <input type = "password" placeholder="Confirm Password" class="half-class">
+            </div>
+            <div class = flex-container>
+            
+                <span> 
+                    <input type ="checkbox" value="I Agree"> 
+                    <span class="agreeword">I Agree</span> 
+                </span>
+                <span class="threequarter-class">
+                    By clicking <input type = "button" class = "Sign-btn" value="Register" id = "Register">, you agree to the <a href="about:blank"> Terms and Conditions</a> set out by this site, including our Cookie Use.
+                </span>
+            
+            </div>          
+
+            <div class = flex-container>
+                <input type = "button" class = "half-class" value="Register" id = "Register" class = "radius">
+                <input type = "button" class = "half-class" value="Sign In" id = "Signin" class = "radius">
+            </div>
+                                
+        </form>
+    </div>
     
 </body>
 </html>
